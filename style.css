@@ -79,6 +79,12 @@ body{
     display: block;
 }
 
+.wrapper .info-text{
+    font-size: 13px;
+    color: rgb(97, 69, 30);
+    margin: -3px 0 -10px;
+}
+
 .wrapper ul{
     display: none;
 }
