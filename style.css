@@ -79,6 +79,10 @@ body{
     display: block;
 }
 
+.wrapper ul{
+    display: none;
+}
+
 .wrapper ul li{
     display: flex;
     align-items: center;
@@ -108,4 +112,31 @@ ul .word i{
     cursor: pointer;
     font-size: 15px;
     color: rgb(97, 69, 30);
+}
+
+.content li .details{
+    padding-left: 10px;
+    border-radius: 4px 0 0 4px;
+    border-left: 3px solid rgb(206, 137, 41);
+}
+
+.content li .details p{
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.content li .details span{
+    font-size: 15px;
+    color: rgb(97, 69, 30);;
+}
+
+.synonyms .details .list{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.synonyms .details .list span{
+    cursor: pointer;
+    margin-right: 5px;
+    text-decoration: underline;
 }
